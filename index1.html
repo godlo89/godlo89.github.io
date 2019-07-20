@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <a href="">link 1</a>
+    <a href="">link 2</a>
+    <a href="">link 3</a>
+    <span>to jest span</span>
+    <p>to jest paragraf</p>
+    <div>To jest div</div>
+    <section id="sekcja">sekcja</section>
+    <ul>
+        <li>punkt 1</li>
+        <li>punkt 2</li>
+        <li>punkt 3</li>
+        <li>punkt 4</li>
+    </ul>
+    <!--Odnośniki-->
+    <a href="http://akademia108.pl">Link do Akademi</a>
+    <a href="podtrony/kontakty.html" target="_blank">kontakt</a>
+    <a href="sekcja">Link do sekcji</a>
+    <a href="mailto:kursy@akademia108.pl">kursy@akademia108></a>
+    <!-- Tabele -->
+    <!-- table>(thead>tr>th*2)+(tbody>tr>th*2)+(tfoot>tr>th*2) -->
+    <table>
+        <thead>
+            <tr>
+                <th>Produkt</th>
+                <th>Ilość</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Kawa</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Kawa</td>
+                <td>2</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Razem</td>
+                <td>8</td>
+            </tr>
+        </tfoot>
+    </table>
+    <!--Formularz-->
+    <form action="" method="GET">
+        <label for="user-name">Imię:</label>
+        <input type="text" name="user-name" id="user-name"
+        placeholder="Imię użytkownika"><br>
+        <input type="email" name="email"
+        placeholder="adres@com" disabled>
+        <input type="number" name="quantity" value="2"><br>
+        <input type="checkbox" name="agreement"
+        id="agreement" required>
+        <label for="agreement">Wyrażam zgodę na...</label>
+        <label><input type="radio" name="gender">Kobieta</label><br>
+        <label><input type="radio" name="gender">Mężczyna</label><br>
+        <select name="cities">
+            <option value="Warszawa">Warszawa</option>
+            <option value="Kraków">Kraków</option>
+            <option value="Sopot">Sopot</option>
+        </select>
+        <textarea name="message" id="message"></textarea>
+        <input type="submit" value="Wyślij"><br>
+    </form>
+
+</body>
+</html>
