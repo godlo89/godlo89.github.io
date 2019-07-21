@@ -1,0 +1,32 @@
+form {
+    background-color: #213b50;
+    color: #fff;
+    width: 600px;
+    padding: 20px;
+}
+form input, form select {
+    margin-bottom; 10px;
+}
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form select, form input[type="text"], form input[type="tel"], form input[type="email"], textarea {
+    width: 300px;
+    background-color: #2b4a64;
+    color: #fff;
+    border: #2b4a64 1px solid;
+    height: 25px;
+}
+form input[type="checkbox"], input[type="radio"] {
+    radio
+}
+
+form input[type="submit"]:hover {
+    background-color: green;
+    border: #213b50 1px solid;
+    color: #fff;
+    text-transform: 
+
+}
