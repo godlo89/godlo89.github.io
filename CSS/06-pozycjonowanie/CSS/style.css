@@ -1,0 +1,40 @@
+#static {
+    width: 400px;
+    height: 100px;
+    background: orange;
+}
+
+#realtive {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    background: chocolate;
+    top: 50px;
+    left: 50px;
+}
+
+#absolute {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: blue;
+    height: 100px;
+    width: 400px;
+}
+
+#fixed {
+    position: fixed;
+    width: 300px;
+    height: 200px;
+    background-color: blueviolet;
+    bottom: 40px;
+    left: 20px;
+}
+
+#sticky {
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+    position: sticky;
+    top: 0px;
+}
