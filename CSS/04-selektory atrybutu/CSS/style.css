@@ -1,0 +1,37 @@
+
+
+[title] {
+    color: red;
+}
+
+[title="About me"] {
+    color: blue;
+}
+
+[title~="Container"] {
+    background-color: green;
+}
+
+[title*="tainer"] {
+    background-color:blueviolet;
+}
+
+[title^="More"] {
+    background: aqua;
+}
+
+[title$="skills"] {
+    color: firebrick;
+}
+
+[title]:last-child {
+    background-color: black;
+}
+
+nav > ul > li > a[title] {
+    color: lightcoral;
+}
+
+[title*="ectio"] {
+    background-color: blue;
+}
