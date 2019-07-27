@@ -1,0 +1,23 @@
+.flex-item {
+    color: #66FF00;
+    font-family: 'Lato', sans-serif;
+    padding: 10px;
+    margin: 3px;
+    background-color: darkgray;
+    flex-basis: 10%;
+}
+
+.flex-item:nth-last-of-type(odd) {
+    background-color: black;
+}
+
+.container {
+    border: 2px dashed red;
+    display: flex;
+/*    justify-content: flex-end;   */    
+/*    justify-content: flex-start; */
+/*    justyfi-content: center;     */
+/*    justyfi-content: space-around;*/
+/*    justyfy-content: space-between;*/
+justyfy-content: space-evenly;
+}
