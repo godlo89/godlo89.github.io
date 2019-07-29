@@ -1,0 +1,44 @@
+/* Large devices media queries */
+
+@media screen and (min-width: 993px) {
+    #gallery {
+        width: 90%;
+    }
+    figure {
+        width: 33%;
+    }
+}
+
+/* Medium and small devices queries */
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    figure {
+        width: 49%;
+    }
+}
+
+/* Medium and small devices queries */
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    #gallery {
+        width: 100%;
+    }
+    
+    figure {
+        width: 100%;
+    }
+}
+
+/* Small phones */ {
+    
+    @media screen and (max-width: 480px) {
+        #gallery {
+            width: 100%;
+        }
+
+        figure {
+            width: 100%;
+        }
+    }
+
+}

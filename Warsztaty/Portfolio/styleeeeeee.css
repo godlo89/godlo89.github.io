@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #777;
+} 
+
+
+}
+
+.main-header {
+	height: 70vh; 
+	background-image: url(../img/header.jpg);
+	background-size: cover;
+	background-position: center;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.main-header h1 {
+	font-size: 4em;
+	text-transform: uppercase;
+	margin: 0;
+	color: #007bff;
+    padding-top: 100px;
+}
+
+hr {
+    background-color: #007bff;
+    border: 0;
+    height: 1px;
+    width: 100px;
+}
+.button {
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid #007bff;
+    margin:auto;
+    display: inline-block;
+    padding: 15px 20px;
+    transition: all 1s;
+    color: #333;
+    background-color: transparent;
+}
+
+.button:hover {
+    background-color: #007bff;
+    coolor: #fff;
+}
+
+.main-header p{
+	color: black;
+}
+
+.main-header i{
+	color: #007bff;
+}
+
+.nav-menu {
+    background-color: #007bff;
+    color: #fff;
+}
+section header {
+    text-align: center;
+    padding: 130px 0;
+}
+.container {
+    max-width: 117px;
+    margin: auto;
+}
+
+
+.main-header-content {
+    padding-top: 100px;
+}
+
+.main.header h1 {
+    font-size: 4em;
+    text-transform: uppercase;
+    margin: 0;
+    color: #007bff;
+}
+
+.main.header p {
+    font-size: 1.5em;
+    margin: 40px 0;
+    color: #333;
+}
+
+.main-header spam {
+    color: #007bff;
+}
+
+/* Style nav */
+
+.main-nav {
+    position: sticky;
+    top: 0;
+    background-color: #007bff;
+    z-index: 100;
+}
+
+.main-nav .nav-menu {
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.main-nav .nav-menu .nav-menu-item {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.main-nav .nav-menu .
+
+/* Style about */
+
+.about-image {
+    border-radius: 50%;
+    max-width: 450px;
+    max-height: 450px;
+}
+
+.portfolio-wrapper {
+    display: none;
+}
+
+.portfolio-wrapper a {
+    display
+}
+
+/* Style portfolio */
+
+.portfolio {
+    background-color: #f2f1ed;
+}
+
+.portfolio-wrapper {
+    flex-basis: 25%;
+    height: 2;
+} 
+    
+    .portfolio-wrapper h3 {
+    display: none;
+}
+
+.portfolio-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.portfolio-item {
+    flex-basis: 25%;
+    height: 250px;
+    margin: 0;
+    position: relative;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover:
+    object
+}
+
